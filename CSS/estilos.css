@@ -20,9 +20,9 @@ a {
     color: #0055A4;
 }
 
-a:hover{
-    color:#0055A4;
-}
+    a:hover {
+        color: #0055A4;
+    }
 
 .btn {
     background-color: #FF0000;
@@ -33,41 +33,40 @@ a:hover{
     margin-top: 10px;
 }
 
-.btn:hover {
-    background-color: #D52B1E;
-}
+    .btn:hover {
+        background-color: #D52B1E;
+    }
 
 /* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     background-color: #FFFFFF;
-    color: #000000;
 }
 
-header .logo h1 {
-    margin: 0;
-    font-size: 24px;
-}
+    header .logo h1 {
+        margin: 0;
+        font-size: 24px;
+    }
 
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 0 15px;
-    padding: 40px;
-}
-
-header nav ul li a {
-    color: #000000;
-    font-weight: bold;
-}
+    header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+        /*margen*/
+        header nav ul li {
+            margin: 0 50px;
+            padding: 90px;
+        }
+            /* palabras el color y en negrilla*/
+            header nav ul li a {
+                color: #000000;
+                font-weight: bold;
+            }
 
 .logo-link {
     display: inline-block;
@@ -77,15 +76,16 @@ header nav ul li a {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 8px;          /* Espacio entre logo y texto */
-    padding: 5px;      /* Padding compacto */
+    gap: 8px; /* Espacio entre logo y texto */
+    padding: 5px; /* Padding compacto */
     border-radius: 5px; /* Bordes redondeados */
 }
 
 .logo-text {
-    font-size: 50px;   /* Tamaño proporcional al logo */
-    color: #0055A4;    /* Azul océano */
+    font-size: 50px; /* Tamaño proporcional al logo */
+    color: #0055A4; /* Azul océano */
     font-weight: bold;
+    gap: 20px;
 }
 
 /* Banner Principal */
