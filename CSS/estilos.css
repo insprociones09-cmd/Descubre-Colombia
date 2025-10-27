@@ -42,8 +42,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
     background-color: #FFFFFF;
+    color: #000000;
 }
 
     header .logo h1 {
@@ -57,12 +58,12 @@ header {
         padding: 0;
         display: flex;
     }
-        /*margen*/
+
         header nav ul li {
-            margin: 0 50px;
-            padding: 90px;
+            margin: 0 15px;
+            padding: 40px;
         }
-            /* palabras el color y en negrilla*/
+
             header nav ul li a {
                 color: #000000;
                 font-weight: bold;
@@ -85,7 +86,6 @@ header {
     font-size: 50px; /* Tamaño proporcional al logo */
     color: #0055A4; /* Azul océano */
     font-weight: bold;
-    gap: 20px;
 }
 
 /* Banner Principal */
